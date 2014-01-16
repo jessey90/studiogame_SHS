@@ -1,0 +1,744 @@
+/*
+    Document   : style
+    Created on : Apr 5, 2013, 3:20:04 PM
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+.vid-header {
+    text-align: center;
+    height: 43px;
+    border-bottom: 1px solid #b0b0b0;
+    box-shadow: 0 1px 3px #eaeaea;
+    background: #eaeaea;
+}
+
+.vid-vietid {
+    width: 106px;
+    height: 29px;
+    margin-top: 7px;
+}
+
+.vid-input {
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding: 12px 14px 10px;
+    margin-bottom: 12px;
+}
+
+.vid-input-col {
+    height: 22px;
+}
+
+.vid-input-col input {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #999;
+    font-size: 18px;
+}
+
+.vid-content {
+    padding: 14px;
+}
+
+.vid-btn-orange {
+    background: url('../images/bg/bg-btn-orange.png') repeat-x center center transparent;
+    height: 42px;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #b96f00;
+    margin-bottom: 19px;
+}
+
+.vid-btn-orange-txt {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 13px;
+    display: inline-block;
+}
+
+.vid-txt-dot, .vid-txt-no-email, .vid-txt-no-pass {
+    color: #578cca;
+    font-size: 13px;
+}
+
+.vid-btn-gray {
+    background: url('../images/bg/bg-btn-gray.png') repeat-x center center transparent;
+    height: 42px;
+    display: block;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    margin-top: 26px;
+}
+
+.vid-btn-gray-txt {
+    color: #333333;
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 13px;
+    display: inline-block;
+}
+
+.vid-footer {
+    height: 37px;
+    text-align: center;
+    background: url('../images/bg/bg-footer.png') repeat-x bottom center transparent;
+}
+
+.vid-footer-txt {
+    display: block;
+    padding-top: 9px;
+    color: #808080;
+    font-size: 12px;
+}
+
+.vid-err {
+    line-height: 18px;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99991;
+    text-align: left;
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: transparent;
+}
+
+.vid-err-frm {
+    background: url('../images/bg/bg-err.png') repeat-x center bottom #333333;
+    min-height: 44px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+}
+
+.ico-vid-alert {
+    position: absolute;
+    left: 17px;
+    top: 14px;
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+}
+
+.ico-vid-close-err {
+    position: absolute;
+    right: 17px;
+    top: 14px;
+    height: 17px;
+    width: 10px;
+    display: inline-block;
+}
+
+.txt-msg-err-vid {
+    display: inline-block;
+    margin: 13px 37px 12px 38px;
+    font-weight: lighter;
+}
+
+.ico-vid-alert img {
+    height: 13px;
+    width: 13px;
+}
+
+.vid-ico-col.vid-ico-close-hide {
+    display: none;
+}
+
+.ico-vid-close-err img {
+    height: 17px;
+    width: 10px;
+}
+
+.vid-header-me {
+    background: url('../images/bg/bg-header-gray.png') repeat-x center center transparent;
+    height: 44px;
+    box-shadow: 0;
+    border-bottom: 0;
+    text-align: center;
+    position: relative;
+}
+
+.vid-header-me-txt {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.vid-btn-logout {
+    background: url('../images/bg/bg-btn-logout.png') repeat-x center center transparent;
+    height: 28px;
+    width: 66px;
+    border-radius: 3px;
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    border: 1px solid #c3c3c3;
+}
+
+.vid-txt-logout {
+    font-size: 12px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.vid-ico-logout {
+    vertical-align: -3px;
+    margin: 6px 0 0 0;
+    width: 15px;
+}
+
+.vid-ct-me-ava {
+    background: url('../images/me-bg-child.png') no-repeat center center #333333;
+    height: 154px;
+    position: relative;
+    border-bottom: 1px solid #c3c3c3;
+    text-align: center;
+}
+
+.vid-ct-me-child {
+
+}
+
+.vid-mail-me {
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.vid-home-me {
+    font-size: 15px;
+    color: #fff;
+    display: block;
+}
+
+.vid-ava {
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.vid-contact-profile {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 8px 0;
+    background: #fff;
+}
+
+.vid-contact-profile-child {
+    border-left: 2px solid #d5d5d5;
+    margin: 0px 12px;
+    min-height: 65px;
+    padding-left: 9px;
+}
+
+.vid-contact-profile-txt {
+    font-size: 12px;
+    color: #999;
+    margin-left: 3px;
+}
+
+.vid-contact-profile-txt2 {
+    font-size: 12px;
+    color: #333;
+}
+
+.vid-work img {
+    vertical-align: 1px;
+}
+
+.vid-study.vid-work img {
+    margin-left: -1px;
+}
+
+.vid-cmt-total {
+    min-height: 42px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.vid-number-cmt {
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 11px;
+}
+
+.vid-cmt-total {
+    font-size: 12px;
+    color: #333;
+}
+
+.vid-ico-star {
+    width: 13px;
+    vertical-align: -1px;
+}
+
+.vid-action-st {
+    background: url('../images/bg/bg-btn-action.png') repeat-x center center transparent;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #a6a6a6;
+    text-align: center;
+    display: inline-block;
+    width: 48px;
+}
+
+.vid-action-st img {
+    width: 20px;
+    margin-top: 4px;
+}
+
+.vid-action {
+    min-height: 30px;
+    border-bottom: 1px solid  #cfcfcf;
+    padding: 6px 13px;
+    background: #fff;
+}
+
+.vid-action-friend {
+    margin-left: 5px;
+    vertical-align: 1px;
+}
+
+.vid-ico-col img {
+    width: 24px;
+}
+
+.vid-close img {
+    width: 13px;
+}
+
+.vid-close.vid-back img {
+    width: 20px;
+}
+
+.vid-action-msg {
+    float: right;
+}
+
+.vid-action-st.vid-action-friend img {
+    margin-top: 5px;
+    width: 24px;
+}
+
+.vid-action-st.vid-action-msg img {
+    margin-top: 7px;
+    width: 19px;
+}
+
+.vid-content-me {
+    background: #e3e3e3;
+    padding: 10px;
+}
+
+body.vid-body-me {
+    background: #e3e3e3;
+}
+
+body.vid-body-me .vid-content-me {
+    background: transparent;
+}
+
+.vid-list-item {
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    background: #fff;
+    min-height: 80px;
+    padding: 9px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.vid-list-item:before {
+    webkit-box-shadow: 0 1px 3px 3px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0 1px 3px 3px rgba(0,0,0,0.33);
+    box-shadow: 0 1px 3px 3px rgba(0,0,0,0.33);
+    bottom: 4px;
+    content: '';
+    left: 3px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: -1;
+}
+
+.vid-list-ava {
+    float: left;
+    width: 32px;
+    height: 32px;
+}
+
+.img-vid-list-ava {
+    width: 32px;
+    border: 0;
+}
+
+.vid-name-grp {
+    margin-left: 39px;
+    margin-top: -2px;
+}
+
+.vid-list-name {
+    font-weight: bold;
+    font-size: 13px;
+    color: #333;
+    display: block;
+}
+
+.vid-list-time {
+    font-size: 11px;
+    color: #b3b3b3;
+    display: block;
+}
+
+.vid-list-content-txt {
+    font-size: 14px;
+    color: #333333;
+    margin-top: 9px;
+}
+
+.vid-list-content {
+    border: 1px solid #e1e1e1;
+    background: #f6f6f6;
+    min-height: 50px;
+    padding: 7px;
+    margin-top: 15px;
+}
+
+.vid-list-content .vid-list-thumb-link {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+
+.img-vid-list-thumb {
+    width: 50px;
+}
+
+.vid-link-content {
+    margin-left: 58px;
+}
+
+.vid-list-link-title {
+    display: block;
+    font-size: 13px;
+    color: #333;
+    font-weight: bold;
+}
+
+.vid-list-link {
+    color: #999999;
+    font-size: 12px;
+}
+
+.vid-top-cmt {
+    display: block;
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: -7px;
+}
+
+.vid-top-cmt img {
+    vertical-align: -1px;
+    margin-top: 6px;
+    width: 13px;
+}
+
+.vid-loadmore {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.vid-btn-loadmore {
+    background: url('../images/bg/bg-loadmore.png') repeat-x center center #f6f6f6;
+    width: 94px;
+    height: 30px;
+    display: inline-block;
+    font-size: 13px;
+    color: #858585;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.vid-btn-loadmore-txt {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+
+.vid-btn-loadmore img {
+    vertical-align: 1px;
+    margin-left: 2px;
+    width: 12px;
+}
+
+.vid-support-loadmore {
+    display: block;
+    font-size: 13px;
+    color: #999999;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.vid-btn-save {
+    background: url('../images/bg/bg-btn-logout.png') repeat-x center center transparent;
+    height: 28px;
+    width: 49px;
+    border-radius: 3px;
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    border: 1px solid #c3c3c3;
+}
+
+.vid-txt-save {
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #808080;
+}
+
+.vid-header-profile {
+    background: url('../images/bg/bg-header-gray-shadow.png') repeat-x center center transparent;
+    height: 55px;
+    box-shadow: none;
+    border-bottom: 0;
+    text-align: center;
+    position: relative;
+}
+
+.vid-close {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+}
+
+.vid-content-profile {
+    background: #e3e3e3;
+    min-height: 100px;
+    padding: 4px 12px;
+}
+
+.vid-profile-list {
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 15px 11px 10px;
+    background: #fff;
+    box-shadow: 2px 2px 6px -4px rgba(0,0,0,0.33);
+    margin-bottom: 12px;
+    /*position: relative;*/
+}
+
+/*.vid-profile-list:before {
+    webkit-box-shadow: 0 1px 3px 3px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0 1px 3px 3px rgba(0,0,0,0.33);
+    box-shadow: 0 1px 3px 3px rgba(0,0,0,0.33);
+    bottom: 4px;
+    content: '';
+    left: 3px;
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    z-index: -1;
+}*/
+
+.vid-profile-list-ava.vid-profile-list {
+    padding: 5px 11px;
+    min-height: 32px;
+}
+
+.vid-profile-ava {
+    float: left;
+    height: 32px;
+    width: 32px;
+}
+
+.vid-profile-ava img {
+    width: 32px;
+}
+
+.vid-profile-ava-txt {
+    margin-left: 40px;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.vid-ico-col {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    float: right;
+    margin-top: -3px;
+    cursor: pointer;
+}
+
+.vid-profile-input-col {
+    margin-right: 35px;
+    height: 22px;
+    margin-left: 60px;
+}
+
+.vid-profile-input input {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #004b91;
+    font-size: 14px;
+}
+
+.vid-profile-txt {
+    color: #333333;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+
+.vid-profile-list-contact.vid-profile-list {
+    padding: 0;
+}
+
+.vid-profile-list-contact.vid-profile-list .vid-profile-input-col {
+    margin-left: 75px;
+}
+
+.vid-profile-list-contact.vid-profile-list .vid-profile-input {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 5px 10px;
+}
+
+.vid-profile-list-contact.vid-profile-list .vid-profile-input:last-child {
+    border-bottom: none;
+}
+
+.vid-profile-list-contact.vid-profile-list .vid-profile-input input {
+    color: #333333;
+}
+
+.vid-btn-save-orange {
+    background: url('../images/bg/bg-btn-save-orange.png') repeat-x center center transparent;
+    height: 28px;
+    width: 49px;
+    border-radius: 3px;
+    position: absolute;
+    top: 7px;
+    right: 12px;
+    border: 1px solid #b96f00;
+}
+
+.vid-btn-save-orange .vid-txt-save {
+    color: #fff;
+    font-size: 12px;
+}
+
+.vid-msg-support {
+    color: #333;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-bottom: 200px;
+}
+
+.vid-popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #fff;
+}
+
+.vid-popup.vid-popup-addemail {
+    z-index: 99999;
+}
+
+.hidescroll {
+    overflow: hidden;
+}
+
+.vid-popup.animated.fadeInUpBig {
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+}
+
+.vid-popup-addemail.animated.fadeInUpBig {
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-delay: 0s;
+}
+
+.vid-active-input .vid-input-col input {
+    color: #333 !important;
+}
+#birth_day {
+    font-size: 100%;
+}
+#birth_month{
+    font-size: 100%;
+}
+#birth_year{
+    font-size: 100%;
+}
+#MIDlistCity{
+    font-size:100%;
+}
+.vid-profile-input-col label{
+    float:left;
+    width:40%;
+}
+#gender{
+    width:10%;
+    font-size:120%;
+}
+.error{
+    margin-left:12px;
+    color: red;
+}
+.vid-body-wrap{
+    width:100%;
+    height:100%;
+}
+.loading {
+    background: transparent url('../images/fb_loader.gif') no-repeat scroll left top;
+
+    height: 28px;
+    position: absolute;
+    right: 12px;
+    top: 7px;
+    width: 49px;
+
+}

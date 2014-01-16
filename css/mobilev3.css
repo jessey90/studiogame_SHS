@@ -1,0 +1,555 @@
+/*
+    Document   : style
+    Created on : Apr 5, 2013, 3:20:04 PM
+*/
+
+body {
+    font-family: "lucida grande",arial;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.dt-content-index {
+    min-height: 418px;
+}
+
+.dt-footer {
+    background: #fff repeat-x left bottom;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    height: 40px;
+
+    width: 100%;
+    bottom: 0px;
+}
+
+.dt-footer .dt-vietid {
+    float: right;
+    margin: 7px 13px 0 0;
+}
+
+.dt-footer .dt-dantri {
+    margin: 0px 0px 0 12px;
+}
+
+.dt-register-vietid {
+    padding: 29px 25px 149px 25px;
+}
+
+.dt-line {
+    border-bottom: 1px solid #f0f0f0;
+    border-top: 1px solid #d7d7d7;
+    height: 0px;
+    position: relative;
+}
+
+.dt-or {
+    color: #999;
+    font-family: tahoma;
+    font-weight: bold;
+    display: inline-block;
+    height: 19px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    left: 48%;
+    text-align: center;
+}
+
+.dt-or-short {
+    width: 60px;
+    font-size: 15px;
+}
+
+.dt-or-long {
+    width: 157px;
+    font-size: 13px;
+}
+
+.dt-login-vietid {
+    padding: 120px 25px 30px 25px;
+}
+
+.dt-btn-login {
+    background: #f2f2f2;
+    border: 1px solid #c3c3c3;
+    width: 100%;
+    height: 42px;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+}
+
+.dt-btn-register {
+    background: #ff9200;
+    border: 1px solid #b96f00;
+    width: 100%;
+    height: 42px;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+}
+
+.dt-logo-vid-small {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 8px;
+    vertical-align: -3px;
+    width: 29px;
+}
+
+.dt-txt-login {
+    color: #333333;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.dt-txt-register {
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: arial;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.dt-header-txt {
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.dt-header {
+    height: 40px;
+    background: none repeat scroll 0 0 #FF9900;
+}
+
+.dt-vietid-small {
+    width: 29px;
+    margin: 8px 11px 0 11px;
+    vertical-align: -5px;
+}
+
+.dt-content {
+    padding: 0px 10px;
+}
+
+.dt-text-msg {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+    margin-top: 11px;
+}
+
+.dt-content2 {
+    min-height: 75px;
+}
+
+.dt-input-phone {
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding: 12px 14px;
+}
+
+.dt-input-phone input {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dt-phone-hide {
+    color: #999999;
+    font-size: 18px;
+}
+
+.img-phone-hide {
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 6px;
+    width: 19px;
+}
+
+.dt-phone-btn {
+    background: url("../images/imagesv3/bg/bg-btn-register.png") repeat-x scroll center center transparent;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 17px;
+    display: block;
+    height: 42px;
+    margin-top: 11px;
+    margin-bottom: 21px;
+}
+
+.dt-phone-btn.dt-btn-active {
+    background: url("../images/imagesv3/bg/bg-btn-phone-active.png") repeat-x center center transparent;
+    border: 1px solid #b96f00;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #7f4500;
+}
+
+.dt-btn-active .dt-ico-phone-hide {
+    border-right: 1px solid #ffb54d;
+    box-shadow: inset -1px 0px 0px 0px #b96f00;
+}
+
+.dt-fb-btn {
+    background: url("../images/imagesv3/bg/bg-btn-fb.png") repeat-x center center transparent;
+    border: 1px solid #13244a;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px #1c2b4a;
+    display: block;
+    height: 42px;
+    width: 100%;
+    margin-top: 22px;
+    font-weight: bold;
+}
+
+.dt-ico-phone-hide {
+    /*background: url("../images/imagesv3/phone-hide.png") no-repeat center center transparent;*/
+    display: inline-block;
+    height: 42px;
+    width: 47px;
+    border-right: 1px solid #d0d0d0;
+    float: left;
+}
+
+.dt-txt-phone-btn {
+    text-align: center;
+    display: block;
+    margin-left: 48px;
+    margin-top: 11px;
+    font-weight: bold;
+}
+
+.dt-txt-fb-btn {
+    text-align: center;
+    display: block;
+    margin-left: 48px;
+    margin-top: 11px;
+}
+
+.dt-ico-fb {
+    background: url("../images/imagesv3/fb-btn.png") no-repeat center center transparent;
+    display: inline-block;
+    height: 42px;
+    width: 48px;
+    float: left;
+}
+
+.dt-active .dt-input-col {
+    margin-right: 35px;
+}
+
+.dt-ico-col {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    float: right;
+    display: none;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.dt-active .dt-ico-col {
+    display: inline-block;
+}
+
+.dt-input-phone.dt-active input {
+    color: #333;
+    /*font-size: 23px;*/
+}
+
+.dt-pin-btn .dt-txt-phone-btn {
+    margin-left: 0;
+}
+
+.dt-text-msg-pin {
+    font-size: 15px;
+    color: #333;
+    font-family: tahoma;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.dt-line-btn-pin {
+    text-align: center;
+    margin-bottom: 139px;
+    padding: 0 3px;
+}
+
+.numberclor {
+    color: #FF8A00;
+}
+.bg_none {
+    background: none repeat scroll 0 0 transparent !important;
+}
+
+.dt-btn-txt-pin-active {
+    background: url("../images/authentication/call.png") no-repeat scroll 0 center transparent;
+    color: #444444;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 35px;
+    margin-top: 9px;
+}
+
+.notice {
+    color: #777777;
+    font-style: italic;
+}
+.mr_t_10 {
+    margin-top: 10px;
+}
+
+.dt-btn-txt-pin-active_sms {
+    background: url("../images/authentication/iphone.png") no-repeat scroll 0 center transparent;
+    color: #444444;
+    display: inline-block;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 35px;
+    margin-top: 9px;
+}
+
+.dt-btn-pin-active {
+    background: url("../images/imagesv3/bg/bg-btn-pin.png") repeat-x center center transparent;
+    display: block;
+    height: 35px;
+    border: 1px solid #c3c3c3;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.dt-btn {
+    background: url("../images/imagesv3/bg/bg-btn-phone-active.png") repeat-x center center transparent;
+    border: 1px solid #b96f00;
+    color: #ffffff;
+    display: block;
+    height: 42px;
+    margin-top: 11px;
+    margin-bottom: 21px;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+.dt-text-msg-rules {
+    font-size: 12px;
+    color: #333333;
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.dt-btn.dt-btn-success {
+    margin-bottom: 10px;
+}
+
+.dt-btn .dt-txt-phone-btn {
+    margin-left: 0;
+}
+
+.dt-input {
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding: 12px 14px;
+    margin-bottom: 10px;
+}
+
+.dt-input.dt-active input {
+    color: #333;
+    /*font-size: 23px;*/
+}
+
+.dt-input input {
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.dt-active-by-phone {
+    min-height: 62px;
+    padding: 14px 10px 0 10px;
+    background: #eceff2;
+}
+
+.dt-active-by-phone-txt {
+    font-size: 14px;
+    color: #333;
+    font-family: arial;
+    margin-bottom: 6px;
+}
+
+.dt-active-by-phone-number-only {
+    font-family: arial;
+    font-size: 18px;
+    color: #105cb6;
+    font-weight: bold;
+}
+
+.dt-active-by-phone-number-only i {
+    background: url("../images/imagesv3/phone-black.png") no-repeat;
+    display: inline-block;
+    height: 29px;
+    width: 19px;
+    vertical-align: -7px;
+    margin-right: 5px;
+}
+
+.dt-input-first {
+    margin-top: 14px;
+}
+
+.dt-bold {
+    font-weight: bold;
+}
+
+.dt-div {
+    display: block;
+}
+
+.dt-text-msg .dt-div {
+    margin-bottom: 4px;
+}
+
+.dt-text-msg .dt-active-by-phone-number {
+    margin-top: 8px;
+    color: #105cb6;
+    margin-bottom: 13px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dt-active-by-email {
+    margin-top: 5px;
+    color: #105cb6;
+    margin-bottom: 13px;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dt-active-by-email.dt-active-by-email-register {
+    margin-top: 8px;
+}
+
+.dt-active-by-email .dt-active-by-email-only i {
+    background: url("../images/imagesv3/fb.png") no-repeat center center transparent;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    vertical-align: -5px;
+    margin-right: 5px;
+}
+
+.dt-green {
+    color: #105cb6;
+}
+
+.dt-btn.dt-btn-login {
+    background: url("../images/imagesv3/bg/bg-btn-register.png") repeat-x center center transparent;
+    border: 1px solid #B96F00;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 18px;
+    margin-top: 14px;
+}
+
+.dt-btn.dt-btn-login .dt-txt-phone-btn {
+    /*display: block;
+    font-weight: bold;
+    margin-left: 48px;
+    margin-top: 12px;
+    text-align: center;*/
+}
+.dt-email-btn {
+    background: url("../images/imagesv3/bg/bg-btn-register-email.png") repeat-x scroll center center transparent;
+    border: 1px solid #C3C3C3;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    display: block;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+}
+.dt-ico-email {
+    border-right: 1px solid #E8E8E8;
+    box-shadow: -1px 0 0 0 #C3C3C3 inset;
+    display: inline-block;
+    float: left;
+    height: 42px;
+    width: 47px;
+}
+.dt-txt-phone-btn.dt-txt-phone-email-btn {
+    color: #333;
+}
+.img-email-hide {
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 12px;
+    width: 21px;
+}
+.dt-phone-btn.dt-email-btn-register {
+    margin-top: 14px;
+}
+.dt-ico-register-email {
+    border-right: 1px solid #FFB54D;
+    box-shadow: -1px 0 0 0 #B96F00 inset;
+    display: inline-block;
+    float: left;
+    height: 42px;
+    width: 47px;
+}
+.img-email {
+    display: block;
+    margin-left: 13px;
+    margin-top: 12px;
+    width: 21px;
+}
+.dt-phone-btn-new {
+    background: url("../images/imagesv3/bg/bg-btn-register.png") repeat-x scroll center center transparent;
+    border: 1px solid #B96F00;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 17px;
+    height: 42px;
+    margin-bottom: 14px;
+    margin-top: 11px;
+    font-weight: bold;
+    width: 100%;
+}
+.dt-text-msg-register-email {
+    color: #333333;
+    font-family: arial;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
