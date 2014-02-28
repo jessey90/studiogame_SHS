@@ -11,6 +11,7 @@
  * @property string $expired_date
  * @property integer $game_server_id
  * @property integer $user_game_id
+ * @property string $last_login
  *
  * The followings are the available model relations:
  * @property UserSession[] $userSessions
@@ -36,10 +37,16 @@ class Session extends CActiveRecord
 			array('session, game_id', 'required'),
 			array('ip_address, game_id, game_server_id, user_game_id', 'numerical', 'integerOnly'=>true),
 			array('session', 'length', 'max'=>255),
-			array('expired_date', 'safe'),
+			array('expired_date, last_login', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('session_id, session, ip_address, game_id, expired_date, game_server_id, user_game_id', 'safe', 'on'=>'search'),
+			array('session_id, session, ip_address, game_id, expired_date, game_server_id, user_game_id, last_login', 'safe', 'on'=>'search'),
+            array('last_login','default',
+                'value'=>new CDbExpression('NOW()'),
+                'setOnEmpty'=>false,'on'=>'insert'),
+            array('last_login','default',
+                'value'=>new CDbExpression('NOW()'),
+                'setOnEmpty'=>false,'on'=>'update')
 		);
 	}
 
@@ -68,6 +75,7 @@ class Session extends CActiveRecord
 			'expired_date' => 'Expired Date',
 			'game_server_id' => 'Game Server',
 			'user_game_id' => 'User Game',
+			'last_login' => 'Last Login',
 		);
 	}
 
@@ -96,6 +104,7 @@ class Session extends CActiveRecord
 		$criteria->compare('expired_date',$this->expired_date,true);
 		$criteria->compare('game_server_id',$this->game_server_id);
 		$criteria->compare('user_game_id',$this->user_game_id);
+		$criteria->compare('last_login',$this->last_login,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
